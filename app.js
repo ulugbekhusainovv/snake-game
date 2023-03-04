@@ -13,7 +13,7 @@ let grid = 16;
 let count = 0;
 let score = 0;
 let max = 0;
-let val = 4;
+let val = 6
 
 const snake = {
   x: 160,
@@ -46,7 +46,7 @@ selectEl.addEventListener("change", () => {
   } else if (selectEl.value == "Min") {
     val = 6;
   } else if (selectEl.value == "Slow") {
-    val = 7;
+    val = 8;
   }
 });
 function getRandomInit(min, max) {

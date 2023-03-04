@@ -65,3 +65,9 @@ body {
     display: block;
   }
 }
+@media screen and (max-width: 400px) {
+  #new_game {
+    font-size: 20px;
+    left: 90px;
+  }
+}
