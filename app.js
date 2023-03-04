@@ -46,7 +46,7 @@ selectEl.addEventListener("change", () => {
   } else if (selectEl.value == "Min") {
     val = 6;
   } else if (selectEl.value == "Slow") {
-    val = 8;
+    val = 9;
   }
 });
 function getRandomInit(min, max) {
